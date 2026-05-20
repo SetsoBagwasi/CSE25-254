@@ -17,43 +17,33 @@
 <div class= "nav">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="home.html"> Remanence </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="index.html"> Remanence </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Products
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="product.html">Products</a></li>
-            <li><a class="dropdown-item" href="womens.html">Womens collection</a></li>
-            <li><a class="dropdown-item" href="mens.html">Mens collection</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="childrens.html">Childrens collection</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
+    Product
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="product.html">Products</a></li>
+    <li><a class="dropdown-item" href="mens.html">Mens</a></li>
+    <li><a class="dropdown-item" href="womens.html">Womens</a></li>
+    <li><a class="dropdown-item" href="childrens.html">Childrens</a></li>
+  </ul>
+</div>
+       <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about_us.html">Contact us</a>
+          <a class="nav-link active" href="about_us.html">About_us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="contact_us.html" tabindex="-1" aria-disabled="true"> Contact us</a>
+          <a class="nav-link active" href="contact_us.html" tabindex="-1" aria-disabled="false"> Contact_us</a>
         </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-</div>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,11 +60,14 @@
       
   <!-- card 1-->
   <div class="card">
-  <img src="Images/image 14.jpg" cclass="card-img-top" style="height: 300px; margin: auto;" alt="...">
+  <img src="Images/image 14.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Unisex Hoodie</h5>
+      <p class="card-text">Brown Unisex Hoodie with text at the back"Good things are coming".</p>
+      <div class="card-footer">
+            <div class="card-price"><span class="price-current">P250</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
     </div>
   </div>
 
@@ -82,9 +75,12 @@
   <div class="card">
     <img src="Images/image 15.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Graphic Tee</h5>
+      <p class="card-text">Unisex Blue Graphic TEE .</p>
+      <div class="card-footer">
+            <div class="card-price"><span class="price-current">P250</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
     </div>
   </div>
 
@@ -92,9 +88,12 @@
   <div class="card">
     <img src="Images/image 16.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Unisex Hoodie</h5>
+      <p class="card-text">A white unisex graphic hoodie.</p>
+      <div class="card-footer">
+            <div class="card-price"><span class="price-current">P250</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
     </div>
   </div>
 </div> 
@@ -105,48 +104,82 @@
     <div class="card">
       <img src="Images/image 21.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="Images/image 17.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <!-- card 5-->
-  <div class="col">
-    <div class="card">
-      <img src="Images/image 19.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Two piece</h5>
+        <p class="card-text">A black'84'football jersey.Gray jorts</p>
+     <div class="card-footer">
+            <div class="card-price"><span class="price-current">P250</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
       </div>
     </div>
   </div>
   <!-- card 6-->
   <div class="col">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="Images/image 17.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Unisex Graaphic Hoodie</h5>
+        <p class="card-text">A black unisex graphics hoodie.</p>
+      <div class="card-footer">
+            <div class="card-price"><span class="price-current">P250</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
       </div>
     </div>
   </div>
-</div>
-
-
-
-
+  <!-- card 6-->
+  <div class="col">
+    <div class="card">
+      <img src="Images/image 19.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tarquoise Suit</h5>
+        <p class="card-text">A casual tarquoise suit for boys.</p>
+      <div class="card-footer">
+            <div class="card-price"><span class="price-current">P350</span></div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  
 <div class="footer">
-<p> &copyright; @2025 Remanence</p>
-</div>
+   <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">Remanence</span>
+        <p>Dressing the whole family with elegance, comfort, and African pride since 2026.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="womens.html">Women</a></li>
+          <li><a href="mens.html">Men</a></li>
+          <li><a href="childrens.html">Children</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact_us.html">Size Guide</a></li>
+          <li><a href="cart.html">Shipping</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="about_us.html">Sustainability</a></li>
+          <li><a href="about_us.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy;2025 Remanence.All rights reserved.</span>
+      <span>Made with ♥ in Botswana</span>
+    </div>
+  </footer>
+
 <script src="https://jsdelivr.net"></script>
     <script src="script.js"></script>
 </body>
