@@ -167,7 +167,12 @@ hr {
     }
 }
 
-
+.slider img {
+  width: 100%;
+  height: 500px;        /* you can change this height */
+  object-fit: cover;    /* fills the space without stretching */
+  object-position: center; /* centers the image */
+}
 .footer {
   background: darkblue;
   color: #aaa;
