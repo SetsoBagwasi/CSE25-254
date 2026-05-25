@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Home Page</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class= "header">
+<header>
+    <img src="Images/Logo.png" alt="Company Logo" style="width: 120px;height:auto;">
+</header>
+</div>
+<div class= "nav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> Remanence </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true">
+    Product
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="product.html">Products</a></li>
+    <li><a class="dropdown-item" href="mens.html">Mens</a></li>
+    <li><a class="dropdown-item" href="womens.html">Womens</a></li>
+    <li><a class="dropdown-item" href="childrens.html">Childrens</a></li>
+  </ul>
+</div>
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="cart.html">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about_us.html">About_us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact_us.html" tabindex="-1" aria-disabled="false"> Contact_us</a>
+        </li>
+      </ul>
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.html">Log in </a>
+        </li>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="slider">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- First Slide -->
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="Images/slider_images1.jpg" class="d-block w-100" alt="First image">
+      </div>
+      <!-- Second Slide -->
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="Images/slider_image2.jpg" class="d-block w-100" alt="Second image">
+      </div>
+      <!-- Third Slide -->
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="Images/slider_image3.jpg" class="d-block w-100" alt="Third image">
+      </div>
+    </div>
+    <!-- Navigation Buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>   
+</div>
+
+
+   <!-- Content Container-->
+    <div class="container mt-4">
+<div class="card-group"> 
+<!-- card 1-->
+  <div class="card">
+    <img src="Images/image 12.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Formal Suit</h5>
+      <p class="card-text">Dark green fully plated formal suit  with a dark green hat.</p>
+    </div>
+    <div class="card-footer">
+            <div class="card-price"><span class="price-current">P1700</span></div>
+            <button class="add-to-cart" data-name="Formal Suit" data-price="1700">
+  Add to Cart
+</button>
+          </div>
+  </div>
+  <!-- card 2-->
+  <div class="card">
+    <img src="Images/image 19.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tarquoise Suit</h5>
+      <p class="card-text">A tarquoise suit for boys.</p>
+    </div>
+    <div class="card-footer">
+            <div class="card-price"><span class="price-current">P1500</span></div>
+            <button class="add-to-cart" data-name="Tarquoise Suit" data-price="1500">
+  Add to Cart
+</button>
+          </div>
+  </div>
+  <!-- card 3-->
+  <div class="card">
+    <img src="Images/images 5.jpg" class="card-img-top" style="height: 300px; margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Zip-Up Hoodie</h5>
+      <p class="card-text">A black Zip-up Hoodie.</p>
+    </div>
+    <div class="card-footer">
+            <div class="card-price"><span class="price-current">P220</span></div>
+            <button class="add-to-cart" data-name="Zip-Up Hoodie" data-price="220">
+  Add to Cart
+</button>
+          </div>
+  </div>
+</div>
+</div>
+</div>
+
+ <div class="container mt-4">
+  <!-- Added "row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" to handle the grid layout automatically -->
+  <div class="commentcard-group row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    
+    <!-- Comment Card 1-->
+    <div class="col">
+      <div class="card h-100"> <!-- Removed max-width and added h-100 for equal heights -->
+        <div class="row g-0">
+          <div class="col-4"> <!-- Changed to col-4 so it stays side-by-side on all screens -->
+            <img src="Images/Comment_image3.jpg" class="img-fluid rounded-start" alt="Founder Picture">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">ATLANG HILASANO</h5>
+              <p class="card-text">"I had a question about my sizing, and the support team answered within minutes. Excellent customer service!"</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comment Card 2 (Ready for your third card) -->
+      <div class="col">
+      <div class="card h-100"> <!-- Removed max-width and added h-100 for equal heights -->
+        <div class="row g-0">
+          <div class="col-4"> <!-- Changed to col-4 so it stays side-by-side on all screens -->
+            <img src="Images/Comment_image2.jpg" class="img-fluid rounded-start" alt="Founder Picture">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">Kona Naya</h5>
+              <p class="card-text">"Really stylish design! Gives my space a modern, luxurious feel. The packaging was top-notch, and it arrived without a single scratch." </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comment Card 3-->
+    <div class="col">
+      <div class="card h-100"> <!-- Removed max-width and added h-100 for equal heights -->
+        <div class="row g-0">
+          <div class="col-4"> <!-- Changed to col-4 so it stays side-by-side on all screens -->
+            <img src="Images/Comment_image1.jpg" class="img-fluid rounded-start" alt="Comment Picture">
+          </div>
+          <div class="col-8">
+            <div class="card-body">
+              <h5 class="card-title">ISSABELA ROSA</h5>
+              <p class="card-text">"One of the items I ordered had a minor defect on the finish. It is a nice design, but the quality control needs to be a bit tighter."</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  
+<div class="footer">
+   <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">Remanence</span>
+        <p>Dressing the whole family with elegance, comfort, and African pride since 2025.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="womens.html">Women</a></li>
+          <li><a href="mens.html">Men</a></li>
+          <li><a href="childrens.html">Children</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact_us.html">Size Guide</a></li>
+          <li><a href="cart.html">Shipping</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about_us.html">About Us</a></li>
+          <li><a href="about_us.html">Sustainability</a></li>
+          <li><a href="about_us.html">Careers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy;2025 Remanence.All rights reserved.</span>
+      <span>Made with ♥ in Botswana</span>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
